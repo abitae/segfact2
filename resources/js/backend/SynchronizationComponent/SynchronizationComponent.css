@@ -1,0 +1,153 @@
+.card-content {
+  border: 1px solid var(--bs-blue);
+  inline-size: 100%;
+  border-radius: 5px;
+  padding: 0.5em;
+}
+
+.input-checked {
+  inline-size: 30px;
+}
+
+.content-detail {
+  padding: 0.5em 0.5em;
+  border: 1px solid var(--bs-primary);
+  border-radius: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+.content-detail form {
+  text-align: end;
+}
+
+.content-detail form label {
+  text-align: start;
+}
+
+.span-serie {
+  padding: 0.3em;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #fff;
+  display: inline-block;
+}
+
+.span-serie.primary {
+  background-color: var(--bs-primary);
+}
+
+.span-serie.info {
+  background-color: var(--bs-info);
+}
+
+.span-delete {
+  border-radius: 50%;
+  background-color: var(--bs-danger);
+  inline-size: 20px;
+  block-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+}
+
+.span-delete:hover {
+  opacity: .9;
+}
+
+.content-series {
+  display: flex;
+  flex-wrap: wrap;
+  max-inline-size: 300px;
+  min-inline-size: 300px;
+  gap: 5px;
+}
+
+.input-text-serie {
+  text-transform: uppercase;
+}
+
+.modal-body {
+  max-block-size: 650px !important;
+  overflow-y: auto;
+}
+
+.modal-body::-webkit-scrollbar {
+  display: block;
+  block-size: 7px;
+  inline-size: 7px;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+  background-color: #0572df;
+  border-radius: 30px;
+}
+
+.modal-body::-webkit-scrollbar-track {
+  background-color: #66a7e7;
+}
+
+.client-info-content div {
+  display: inline-block;
+}
+
+.client-info-content div:nth-child(1) {
+  inline-size: 70px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.client-info-content div:nth-child(2) {
+  padding-inline-start: .5rem;
+}
+
+.comprobating-number {
+  font-size: 22px;
+}
+
+.price-import {
+  min-inline-size: 100px;
+}
+
+.column-input {
+  max-inline-size: 150px;
+  min-inline-size: 150px;
+}
+
+.content-state-sunat {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  padding-block: 0.7em;
+  text-align: center;
+  border: 2px solid var(--bs-primary);
+  border-radius: 0.5em;
+}
+.content-state-sunat p {
+  margin: 0;
+}
+
+#descripcionBienServicio {
+  block-size: 65px;
+  resize: none;
+}
+
+table tbody tr td {
+  vertical-align: middle;
+}
+
+.modal-fullscreen .form  .modal-body {
+  max-block-size: 720px;
+  block-size: 720px;
+  overflow: auto;
+}
+
+.modal-fullscreen .form {
+  overflow: auto;
+}
+
+.bl2-primary {
+  border-left: 2px solid var(--bs-primary);
+}

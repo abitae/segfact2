@@ -1,0 +1,140 @@
+.information-supplier {
+  border: 1px solid var(--bs-blue);
+  border-radius: 0.4em;
+  padding: 0.3em 1em;
+  position: relative;
+}
+
+.fullNameSupplier {
+  font-size: .9em;
+  font-weight:  bold;
+  padding-inline-start: 0.8em;
+}
+
+
+.btn-remove-supplier {
+  position: absolute;
+  right: 0.3em;
+  top: 0.3em;
+}
+
+.column-supplier {
+  min-width: 285px;
+  line-height: 1;
+}
+
+.column-type-document {
+  min-width: 140px;
+}
+
+.date-issue{
+  min-width: 111px;
+}
+
+.col-series-option {
+  width: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.col-series-nro{
+  width: 40px;
+  text-align: center;
+}
+
+.badge-serie {
+  font-size: 1em;
+  margin-inline-end: .7em;
+  margin-block-end: .4em !important;
+  user-select: none;
+}
+
+.btn-trash {
+  padding: 0.2em 0.3em !important;
+  line-height: 1 !important;
+}
+
+.badge-text {
+  padding-block-start: 0.2em;
+}
+
+.container-list-empty {
+  border: 2px solid #f16c69;
+  border-radius: 0.4rem;
+  padding-inline-start: 0.5rem;
+  padding-block-start: 0.5rem;
+}
+
+.container-list-empty h5 {
+  user-select: none;
+}
+
+#descripcionBienServicio {
+  block-size: 65px;
+  max-block-size: 100px;
+  resize: none;
+}
+
+
+
+.client-info-content div {
+  display: inline-block;
+}
+
+.client-info-content div:nth-child(1) {
+  inline-size: 70px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.client-info-content div:nth-child(2) {
+  padding-inline-start: .5rem;
+}
+
+.comprobating-number {
+  font-size: 22px;
+}
+
+.price-import {
+  min-inline-size: 100px;
+}
+.content-state-sunat {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  padding-block-start: 0.7em;
+  text-align: center;
+  border: 2px solid var(--bs-green);
+  border-radius: 0.3em;
+  padding-block: 1em;
+}
+.content-state-sunat p {
+  margin: 0;
+}
+
+.content-series {
+  display: flex;
+  flex-wrap: wrap;
+  max-inline-size: 300px;
+  min-inline-size: 300px;
+  gap: 5px;
+}
+
+.content-series small::after {
+  content: ' / ';
+  display: inline-block;
+}
+
+.content-series small:last-child::after {
+  content: '';
+}
+
+.span-serie {
+  padding: 0.3em;
+  background-color: var(--bs-primary);
+  border-radius: 20px;
+  font-size: 12px;
+  color: #fff;
+  display: inline-block;
+}

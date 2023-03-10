@@ -1,0 +1,351 @@
+:root {
+  --color-pdf: #E00702;
+}
+
+.text-color-pdf {
+  color: var(--color-pdf);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.select-none {
+  user-select: none;
+}
+.select-all {
+  user-select: all;
+}
+
+:is(
+  input[type="search"],
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"],
+  input[type="email"],
+  textarea
+  )::placeholder {
+  transition-property: opacity;
+  transition-duration: .3s;
+}
+
+:is(
+  input[type="search"],
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"],
+  input[type="email"],
+  textarea
+):focus::placeholder {
+  opacity: 0;
+}
+
+input[type="text"].password {
+  -webkit-text-security: disc;
+}
+
+.color-customized {
+  color: var(--bs-blue);
+  margin-bottom: 0;
+  align-items: center;
+}
+
+table thead tr th {
+  user-select: none;
+  line-height: 1;
+}
+
+table tbody tr td.option-buttons {
+  inline-size: 120px;
+  min-inline-size: 120px;
+  text-align: center;
+}
+
+.column-date {
+  inline-size: 170px;
+  min-inline-size: 170px;
+  text-align: center;
+}
+
+table :is(thead, tbody) tr :first-child.options {
+  min-inline-size: 80px;
+  inline-size: 80px;
+  text-align: center;
+}
+
+.success-sunat {
+  border-color: #00cd00;
+  box-shadow: 0 0 1px #00cd00;
+}
+
+.error-sunat {
+  border-color: #cd0000;
+  box-shadow: 0 0 1px #cd0000;
+}
+
+table :is(thead, tbody) tr .status {
+  min-width: 80px;
+  width: 80px;
+  text-align: center;
+}
+
+.registration-status {
+  padding-block: .3rem;
+  width: 75px;
+  user-select: none;
+}
+
+.title-with-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-label span {
+  color: #fd3131;
+}
+
+.toast-list-error-title {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.pagination.pagination-sm {
+  gap: .5em;
+}
+
+.pagination.pagination-sm .page-item {
+  border-radius: 50%;
+}
+
+.wihtout-result{
+  text-align: center;
+}
+
+.wihtout-result img {
+  height: 100px;
+  margin-bottom: .5em;
+}
+
+.wihtout-result-title {
+  color: #c7c7c7;
+}
+
+.resize-none {
+  resize: none;
+}
+
+.vertical-collpsed .vertical-menu #sidebar-menu>ul>li>a i {
+  font-size: 1.2rem !important;
+  text-align: center !important;
+}
+
+.spinner-border{
+  width: 1em !important;
+  height: 1em !important;
+}
+
+
+select {
+  cursor: pointer !important;
+}
+
+.vertical-align-middle tr :is(th,td) {
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.img-avatar {
+  height: 170px;
+  text-align: center;
+  border: 3px double #4f93ff;
+  border-radius: 1em;
+  padding-block: 1em;
+}
+
+.form-line {
+  border: none;
+  border-bottom: 1px solid #ced4da;
+}
+
+.state-success {
+  background-color: #00d564 !important;
+  color: white;
+  font-weight: 600;
+}
+
+.state-danger {
+  background-color: #d50000 !important;
+  color: white;
+  font-weight: 600;
+}
+
+
+input[type=date]::-webkit-calendar-picker-indicator:hover {
+  opacity: 1;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  opacity: .5;
+  cursor: pointer;
+}
+
+.border-success {
+  border: 1px solid #00de00 !important;
+}
+
+.btn-excel {
+  background-color: hsl(147, 77%, 33%);
+  color: #fff;
+}
+
+.btn-excel:hover {
+  background-color: hsl(147, 77%, 27%);
+  color: #fff;
+}
+
+.btn-pdf {
+  background-color: hsl(0, 67%, 55%);
+  color: #fff;
+}
+
+.btn-pdf:hover {
+  background-color: hsl(0, 67%, 46%);
+  color: #fff;
+}
+
+.vs__open-indicator {
+	fill: rgb(52 58 64) !important;
+	transform: scale(.8) !important;
+  cursor: pointer;
+}
+
+.vs__search,
+.vs__search:focus
+{
+  padding: 0.15em 0 0 0.15em;
+}
+
+.v-select.vs--single.vs--searchable{
+  border: 1px solid hsla(0, 0%, 56%, 0.15);
+  border-radius: 0.3em;
+}
+
+
+.vs__selected svg {
+  fill: #fff !important;
+}
+
+.vs__selected {
+  border-radius: 3rem !important;
+  padding: 0.1em 0.5em !important;
+  background-color: #1b82ec !important;
+  color: #fff !important;
+}
+
+thead tr th {
+  vertical-align: middle !important;
+}
+
+.input-file {
+  display: block;
+  border: 1px solid #c3c7ca;
+  padding-block: 5px;
+  margin-block-start: 2px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: normal;
+  max-block-size: 32px;
+  overflow: hidden;
+}
+
+.input-file i {
+  margin-inline-end: .5em;
+}
+
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  margin-bottom: 0.1rem !important;
+}
+
+.text-right {
+  text-align: end;
+}
+
+.y-center {
+  vertical-align: middle;
+}
+
+.x-center {
+  text-align: center;
+}
+
+.xy-center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.pointer-events-none {
+  pointer-events: none !important;
+}
+
+select[readonly] {
+  background-color: hsla(0, 0%, 0%, 0.09);
+  user-select: none;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+select.swal2-select{
+  font-size: 17px;
+}
+select.swal2-select:focus-visible  {
+  outline: unset;
+}
+.form-label {
+  margin: 0 !important;
+}
+
+.card-title button {
+  inline-size: 140px;
+  text-align: center;
+}
+
+
+::-webkit-scrollbar {
+  display: block;
+  block-size: 13px;
+  inline-size: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0572df;
+  /* border-radius: 30px; */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #71b1f1;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.btn-settings-options:hover {
+  background-color: #1571d0;
+}
+
+.btn-icon-theme i {
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 300ms;
+}
+
+.btn-icon-theme:hover i {
+  transform: scale(1.5);
+}

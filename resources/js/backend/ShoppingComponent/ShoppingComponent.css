@@ -1,0 +1,84 @@
+.information-supplier {
+  border: 1px solid var(--bs-blue);
+  border-radius: 0.4em;
+  padding: 0.3em 1em;
+  position: relative;
+}
+
+.fullNameSupplier {
+  font-size: .9em;
+  font-weight:  bold;
+  padding-inline-start: 0.8em;
+}
+
+
+.btn-remove-supplier {
+  position: absolute;
+  right: 0.3em;
+  top: 0.3em;
+}
+
+.column-supplier {
+  min-width: 285px;
+  line-height: 1;
+}
+
+.column-type-document {
+  min-width: 140px;
+}
+
+.date-issue{
+  min-width: 111px;
+}
+
+
+.col-series-option {
+  width: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.col-series-nro{
+  width: 40px;
+  text-align: center;
+}
+
+.badge-serie {
+  font-size: 1em;
+  margin-inline-end: .7em;
+  margin-block-end: .4em !important;
+  user-select: none;
+}
+
+.btn-trash {
+  padding: 0.2em 0.3em !important;
+  line-height: 1 !important;
+}
+
+.badge-text {
+  padding-block-start: 0.2em;
+}
+
+.container-list-empty {
+  border: 2px solid #f16c69;
+  border-radius: 0.4rem;
+  padding-inline-start: 0.5rem;
+  padding-block-start: 0.5rem;
+}
+
+.container-list-empty h5 {
+  user-select: none;
+}
+
+.span-serie {
+  display: inline-block;
+}
+
+.content-series {
+  max-inline-size: 250px;
+  min-inline-size: 250px;
+}
+
+.separate-serie {
+  padding-inline: 3px;
+}
