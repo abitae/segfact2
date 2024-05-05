@@ -17,9 +17,9 @@ class DatabaseSeeder extends Seeder
     {
       $user = new User();
       $user->name = "Super administrador";
-      $user->email = "ch4v3zfredy@gmail.com";
+      $user->email = "abel.arana@hotmail.com";
       $user->email_verified_at = Carbon::now();
-      $user->password = Hash::make("{admin123..}");
+      $user->password = Hash::make("lobomalo123");
       $user->remember_token = Str::random(10);
       $user->save();
 

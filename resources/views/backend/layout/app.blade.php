@@ -15,6 +15,7 @@
   <link href="{{ asset('backend/assets/css/styles-customized.css') }}" rel="stylesheet" type="text/css" />
   @yield('styles')
   <script src="{{ asset('js/app.js') }}" defer></script>
+  @livewireStyles
 </head>
 
 <body data-topbar="colored">
@@ -183,5 +184,6 @@
   <script src="{{ asset('backend/assets/libs/raphael/raphael.min.js') }}"></script>
   <script src="{{ asset('backend/assets/js/app.js') }}"></script>
   @yield('scripts')
+  @livewireScripts
 </body>
 </html>

@@ -124,6 +124,14 @@
         </a>
       </li>
     @endcan
+    @can('view users')
+      <li>
+        <a href="{{ route('mycompany') }}" class="waves-effect">
+          <i class="fas fa-users"></i>
+          <span>MyCompany</span>
+        </a>
+      </li>
+    @endcan
 
   </ul>
 </div>
