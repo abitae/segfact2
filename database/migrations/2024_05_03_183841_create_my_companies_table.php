@@ -19,11 +19,15 @@ class CreateMyCompaniesTable extends Migration
             $table->string('RazonSocial');
             $table->string('plan');
             $table->string('monto');
+            $table->string('deuda');
             $table->dateTime('fecha_suscription');
             $table->dateTime('fecha_certificacion');
             $table->dateTime('fin_suscription');
             $table->dateTime('fin_certificacion');
             $table->text('nota');
+            $table->string('archivo')->nullable();
+            $table->string('nombre');
+            $table->string('telefono');
             $table->string('estado')->default('bg-toinstall');
             $table->timestamps();
         });

@@ -11,11 +11,15 @@ class MyCompany extends Model
         'RazonSocial',
         'plan',
         'monto',
+        'deuda',
         'fecha_suscription',
         'fecha_certificacion',
         'fin_suscription',
         'fin_certificacion',
         'nota',
         'estado',
+        'nombre',
+        'telefono',
+        'archivo',
     ];
 }
